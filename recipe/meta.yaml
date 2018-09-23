@@ -20,7 +20,7 @@ requirements:
 
   run:
     - python
-    - typing  # [py<35]
+    - typing >=3.5.3  # [py<35]
 
 test:
   imports:
