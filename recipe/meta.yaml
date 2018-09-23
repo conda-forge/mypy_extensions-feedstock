@@ -11,7 +11,7 @@ source:
   sha256: "c4553f2475996c912658d3c2f398766cd47a65e0c2c6bb27ac8dea94a21640f4"
 
 build:
-  number: 0
+  number: 1000
   script: python setup.py install
 
 requirements:
