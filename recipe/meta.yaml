@@ -31,8 +31,7 @@ about:
   home: http://www.mypy-lang.org/
   license: MIT
   license_family: MIT
-  # https://github.com/python/mypy/issues/4247
-  # license_file: ''
+  license_file: LICENSE
   summary: Experimental type system extensions for programs checked with the mypy typechecker.
   description: |
       The 'mypy_extensions' module defines experimental extensions to the
