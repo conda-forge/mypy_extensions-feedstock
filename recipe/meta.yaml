@@ -1,5 +1,5 @@
 {% set name = "mypy_extensions" %}
-{% set version = "0.4.2" %}
+{% set version = "0.4.3" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: "a161e3b917053de87dbe469987e173e49fb454eca10ef28b48b384538cc11458"
+  sha256: "2d82818f5bb3e369420cb3c4060a7970edba416647068eb4c5343488a6c604a8"
 
 build:
   number: 0
