@@ -6,19 +6,19 @@ package:
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: "2d82818f5bb3e369420cb3c4060a7970edba416647068eb4c5343488a6c604a8"
+  sha256: 2d82818f5bb3e369420cb3c4060a7970edba416647068eb4c5343488a6c604a8
 
 build:
   number: 2
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv "
+  # we can probably ditch typing in the next iteration and make this noarch.
+  # noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - python
     - pip
-
   run:
     - python
     - typing >=3.5.3  # [py<35]
@@ -26,6 +26,10 @@ requirements:
 test:
   imports:
     - mypy_extensions
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: http://www.mypy-lang.org/
@@ -42,3 +46,4 @@ about:
 extra:
   recipe-maintainers:
     - nehaljwani
+    - ocefpaf
