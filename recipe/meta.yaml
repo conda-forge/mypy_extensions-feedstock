@@ -1,5 +1,5 @@
 {% set name = "mypy_extensions" %}
-{% set version = "0.4.3" %}
+{% set version = "0.4.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2d82818f5bb3e369420cb3c4060a7970edba416647068eb4c5343488a6c604a8
+  sha256: c8b707883a96efe9b4bb3aaf0dcc07e7e217d7d8368eec4db4049ee9e142f4fd
 
 build:
-  number: 6
+  number: 0
   # we can probably ditch typing in the next iteration and make this noarch.
   # noarch: python
   script: {{ PYTHON }} -m pip install . -vv
@@ -41,8 +41,8 @@ about:
   license_file: LICENSE
   summary: Experimental type system extensions for programs checked with the mypy typechecker.
   description: |
-      The 'mypy_extensions' module defines experimental extensions to the
-      standard 'typing' module that are supported by the mypy typechecker.
+    The 'mypy_extensions' module defines experimental extensions to the
+    standard 'typing' module that are supported by the mypy typechecker.
   doc_url: https://mypy.readthedocs.io
   dev_url: https://github.com/python/mypy/blob/master/extensions
 
