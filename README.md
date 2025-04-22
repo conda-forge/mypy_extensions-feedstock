@@ -35,7 +35,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-mypy_extensions-green.svg)](https://anaconda.org/conda-forge/mypy_extensions) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mypy_extensions.svg)](https://anaconda.org/conda-forge/mypy_extensions) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mypy_extensions.svg)](https://anaconda.org/conda-forge/mypy_extensions) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mypy_extensions.svg)](https://anaconda.org/conda-forge/mypy_extensions) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-mypy__extensions-green.svg)](https://anaconda.org/conda-forge/mypy_extensions) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mypy_extensions.svg)](https://anaconda.org/conda-forge/mypy_extensions) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mypy_extensions.svg)](https://anaconda.org/conda-forge/mypy_extensions) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mypy_extensions.svg)](https://anaconda.org/conda-forge/mypy_extensions) |
 
 Installing mypy_extensions
 ==========================
