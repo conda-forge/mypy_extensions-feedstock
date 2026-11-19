@@ -31,8 +31,9 @@ tests:
   - package_contents:
       strict: true
       site_packages:
-        - mypy_extensions/**
         - mypy_extensions-${{ version }}.dist-info/**
+      files:
+        - site-packages/mypy_extensions.py
   - python:
       imports: mypy_extensions
       pip_check: true
