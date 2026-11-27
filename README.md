@@ -3,19 +3,16 @@ About mypy_extensions-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mypy_extensions-feedstock/blob/main/LICENSE.txt)
 
-Home: http://www.mypy-lang.org/
+Home: https://pypi.org/project/mypy-extensions
 
 Package license: MIT
 
-Summary: Experimental type system extensions for programs checked with the mypy typechecker.
+Summary: Type system extensions for programs checked with the mypy type checker.
 
-Development: https://github.com/python/mypy/blob/master/extensions
-
-Documentation: https://mypy.readthedocs.io
+Development: https://github.com/python/mypy_extensions
 
 The 'mypy_extensions' module defines experimental extensions to the
 standard 'typing' module that are supported by the mypy typechecker.
-
 
 Current build status
 ====================
@@ -195,6 +192,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@conda-forge/mypy](https://github.com/orgs/conda-forge/teams/mypy/)
 * [@nehaljwani](https://github.com/nehaljwani/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 
